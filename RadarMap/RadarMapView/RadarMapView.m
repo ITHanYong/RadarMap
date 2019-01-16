@@ -74,7 +74,7 @@ static float center_h = 0;
 
 - (void)drawRect:(CGRect)rect {
     // 画主体内容 - 标签
-    //[self drawBody];
+    [self drawBody];
     // 画分割线
     [self drawPart];
     // 画百分比占比 - 用户数据
